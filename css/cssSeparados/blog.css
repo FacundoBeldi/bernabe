@@ -1,0 +1,14 @@
+#blog .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#blog h4 {
+    text-align: center;
+}
+
+#blog {
+    background: linear-gradient(#fff, rgb(107, 106, 106), #333);
+    margin: 0%;
+}
