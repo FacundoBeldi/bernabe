@@ -31,6 +31,7 @@ header label {
 
 .menu a:hover{
     background: rgba(255, 255, 255, 0.3);
+    color: red;
 }
 
 #menu-bar:checked ~ .menu {

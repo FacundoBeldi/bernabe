@@ -3,6 +3,7 @@
 @import url(./cssSeparados/blog.css);
 @import url(./cssSeparados/info.css);
 @import url(./cssSeparados/footer.css);
+@import url(./cssSeparados/presentacion.css);
 
 * {
     margin: 0;
@@ -29,6 +30,7 @@ header {
 
 h1 {
     float: left;
+    font-family: 'Permanent Marker', cursive;
 }
 
 header .contenedor {
@@ -52,6 +54,11 @@ span img {
 .musica {
     font-size: 20px;
     font-weight: 700;
+}
+
+#youtube {
+    display: none;
+    visibility: hidden;
 }
 
 @media (min-width: 1024px) {
