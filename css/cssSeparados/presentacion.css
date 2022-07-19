@@ -5,3 +5,15 @@
     padding: 20px;
     margin: 0;
 }
+
+@media (max-width: 350px) {
+    #presentacion video {
+        height: 300px;
+    }
+}
+
+@media (min-width: 720px) {
+    #presentacion video {
+        display: none;
+    }
+}

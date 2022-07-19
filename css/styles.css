@@ -17,7 +17,7 @@ header {
     height: 50px;
     background: #333;
     color: #fff;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     z-index: 100;
@@ -31,6 +31,7 @@ header {
 h1 {
     float: left;
     font-family: 'Permanent Marker', cursive;
+    margin-left: 20px;
 }
 
 header .contenedor {
@@ -64,5 +65,11 @@ span img {
 @media (min-width: 1024px) {
     .contenedor {
         width: 1000px;
+    }
+}
+
+@media (min-width: 300px) {
+    .contenedor {
+        width: 100%;
     }
 }
